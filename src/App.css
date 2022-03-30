@@ -1,17 +1,29 @@
+:root {
+  --main-blue: #3E5C76;
+  --main-white: #d9dcd6;
+  --main-dark: #1f0812;
+  --main-gold: #a27a3f;
+
+}
+
+
+@font-face {
+  font-family: jolly;
+  src: url(./fonts/BestJolly.ttf);
+}
+
+@font-face {
+  font-family: baby-moon;
+  src: url(./fonts/BabyMoon.ttf);
+}
+
 .App {
   text-align: center;
+  background-color: var(--main-white);
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -21,18 +33,95 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #D9DcD6;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.carousel {
+  width: 50%;
+  margin: auto;
+  
+}
+.carousel-item {
+  background-color: rgb(152, 71, 62, .5);
+  height: 50vh;
+  margin: auto;
+  
+}
+
+.carousel-item img {
+  height: 100%;
+   
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  max-height: 8%;
+  background-color: var(--main-white);
+  
+}
+
+.header h1 {
+  margin: 30px auto;
+}
+
+.logo {
+  height: 100px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 550px) {
+  .logo {
+    height: 50px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 350px) {
+  .logo {
+    display: block;
+    position: relative;
   }
+}
+
+.title {
+  color: #1F0812;
+  font-family: baby-moon;
+}
+
+.navbar {
+  background-color: var(--main-white);
+  
+}
+.navbar .active {
+  background-color: var(--main-blue) !important;
+  color: var(--main-white) !important;
+  margin-bottom: 10%;
+
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10% 10px;
+  margin-top: 100vh;
+  background-color: var(--main-white);
+  color: var(--main-dark);
 }

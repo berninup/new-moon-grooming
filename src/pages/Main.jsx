@@ -1,9 +1,19 @@
+import ComparisonSlider from "../components/ComparisonSlider"
+import DogCarousel from "../components/DogCarousel"
+import Header from "../components/Header"
+import NavBar from "../components/Navbar"
+import Home from "../pages/Home"
+import About from "./About"
 
 function Main() {
   return (
     <div>
-        <h1>New Moon Grooming</h1>
-        <h2>Coming Soon</h2>
+      <div className="fixed-top">
+        <Header />
+        <NavBar />
+      </div>
+      <Home />
+      <About />
     </div>
   )
 }
