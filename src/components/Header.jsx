@@ -5,7 +5,9 @@ function Header() {
   return (
     
     <div className="header">
-        <img className="logo" src={moon} alt='moon logo' />
+        <a className="logo" href="#home">
+          <img className="logo" src={moon} alt='moon logo' />
+        </a>
         <h1 className="title"> New Moon Grooming</h1>
         
     </div>

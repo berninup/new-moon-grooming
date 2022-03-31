@@ -73,22 +73,41 @@
   margin: 30px auto;
 }
 
+.header a {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
-  height: 100px;
+  max-height: 100px;
   position: absolute;
+  
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 680px) {
   .logo {
-    height: 50px;
+    max-height: 50px;
   }
+  .carousel {
+    margin-top: 20%;
+  }
+
+  .carousel-item {
+    margin-top: 30%;
+    
+  }
+  .carousel {
+    width: 80%;
+  }
+
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 360px) {
   .logo {
     display: block;
     position: relative;
   }
+ 
 }
 
 .title {
@@ -98,12 +117,13 @@
 
 .navbar {
   background-color: var(--main-white);
+ 
   
 }
 .navbar .active {
   background-color: var(--main-blue) !important;
   color: var(--main-white) !important;
-  margin-bottom: 10%;
+  ;
 
 }
 
@@ -134,7 +154,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto 30%;
+  margin: auto 20%;
 
 }
 
