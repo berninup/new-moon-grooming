@@ -12,10 +12,10 @@ function NavBar() {
             <Nav.Link href='#about'>About</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link >Home</Nav.Link>
+            <Nav.Link href='#testimonials'>Testimonials</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link>Home</Nav.Link>
+            <Nav.Link href='#contact'>Contact</Nav.Link>
         </Nav.Item>
     </Nav>
     </Navbar>

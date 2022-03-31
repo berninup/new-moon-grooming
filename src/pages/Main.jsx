@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import NavBar from "../components/Navbar"
 import Home from "../pages/Home"
 import About from "./About"
+import Testimonials from "./Testimonials"
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
       </div>
       <Home />
       <About />
+      <Testimonials />
     </div>
   )
 }
