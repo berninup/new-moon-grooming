@@ -121,10 +121,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 10% 10px;
+  margin: 10% 20%;
   margin-top: 100vh;
   background-color: var(--main-white);
   color: var(--main-dark);
+  font-size: large;
 }
 
 #testimonials {
@@ -141,8 +142,15 @@
   margin-left: 30%;
   font-weight: bold;
   font-size: larger;
+  color: var(--main-blue);
 }
 
 #testimonials div {
   margin-bottom: 1px;
+}
+
+.name {
+  font-size: large;
+  color: var(--main-blue);
+  font-family: jolly;
 }
