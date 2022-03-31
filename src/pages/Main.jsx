@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import NavBar from "../components/Navbar"
 import Home from "../pages/Home"
 import About from "./About"
+import Contact from "./Contact"
 import Testimonials from "./Testimonials"
 
 function Main() {
@@ -16,6 +17,7 @@ function Main() {
       <Home />
       <About />
       <Testimonials />
+      <Contact />
     </div>
   )
 }
